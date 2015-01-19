@@ -43,6 +43,8 @@ configurations {
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.2.5'
+    
     
     compile 'org.webjars:bootstrap:3.3.1'
     
